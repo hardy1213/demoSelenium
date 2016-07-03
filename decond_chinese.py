@@ -8,24 +8,26 @@ driver.get("http://www.baidu.com")
 
 driver.find_element_by_id("kw").send_keys("seleniumm")
 
-# É¾³ıÊäÈë¿òµÄÒ»¸öm
+# åˆ é™¤è¾“å…¥æ¡†çš„ä¸€ä¸ªm
 driver.find_element_by_id("kw").send_keys(Keys.BACK_SPACE)
 
-# ÊäÈë¿Õ¸ñ¼ü+½Ì³Ì "½Ì³Ì".decode("utf-8")½â¾öÁËUnicodeDecodeError: 'utf8' codec can't decode byte 0xe4
+# è¾“å…¥ç©ºæ ¼é”®+æ•™ç¨‹ "æ•™ç¨‹".decode("utf-8")è§£å†³äº†UnicodeDecodeError: 'utf8' codec can't decode byte 0xe4
 driver.find_element_by_id("kw").send_keys(Keys.SPACE)
-driver.find_element_by_id("kw").send_keys("½Ì³Ì".decode("utf-8"))
+driver.find_element_by_id("kw").send_keys("æ•™ç¨‹".decode("utf-8"))
 
-# Ctrl+a È«Ñ¡ÊäÈë¿òµÄÄÚÈİ
+# Ctrl+a å…¨é€‰è¾“å…¥æ¡†çš„å†…å®¹
 driver.find_element_by_id("kw").send_keys(Keys.CONTROL, 'a')
 
-# ¼ôÇĞÊäÈë¿òµÄÄÚÈİ
+# å‰ªåˆ‡è¾“å…¥æ¡†çš„å†…å®¹
 driver.find_element_by_id("kw").send_keys(Keys.CONTROL, 'x')
 
-# Õ³ÌùÄÚÈİµ½ÊäÈë¿ò
+# ç²˜è´´å†…å®¹åˆ°è¾“å…¥æ¡†
 driver.find_element_by_id("kw").send_keys(Keys.CONTROL, 'v')
 
-#Í¨¹ı»Ø³µ¼üÀ´´úÌæµ¥»÷²Ù×÷
+#é€šè¿‡å›è½¦é”®æ¥ä»£æ›¿å•å‡»æ“ä½œ
 driver.find_element_by_id("kw").send_keys(Keys.ENTER)
 
-#ÍË³öä¯ÀÀÆ÷
+#é€€å‡ºæµè§ˆå™¨
 driver.quit()
+
+#æ¨¡æ‹Ÿæ–¹æ³•
