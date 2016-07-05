@@ -30,4 +30,4 @@ driver.find_element_by_id("kw").send_keys(Keys.ENTER)
 #退出浏览器
 driver.quit()
 
-#模拟方法
+print 'hello world'
