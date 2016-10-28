@@ -39,14 +39,14 @@ from email.header import Header
 smtpserver = 'smtp.163.com'
 
 #定义发送邮箱的用户名、密码
-user = 'fengjikun1987@163.com'
-password = 'fengJK1986526'
+user = '************'
+password = '******'
 
 #发送的邮箱
-sender = 'fengjikun1987@163.com'
+sender = '*************'
 
 #定义接受的邮箱，第一种方法：列表接收
-receiver = ['fengjikun1987@163.com','fengjikun@wywk.c']
+receiver = ['***************','********']
 
 #第二种方法：邮件存到TXT文件中，直接修改
 '''
