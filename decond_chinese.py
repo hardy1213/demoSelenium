@@ -79,11 +79,11 @@ from email.mime.multipart import MIMEMultipart
 smtpserver = 'smtp.163.com'
 
 #发送邮箱的用户名、密码
-user = 'fengjikun1987@163.com'
-password = 'fengJK1986526' #此密码不是邮箱密码，是邮箱代理的密码
+user = 'xxxxxxxxxxxx'
+password = 'xxxxxxxxxxxxxxx' #此密码不是邮箱密码，是邮箱代理的密码
 
 #发送的邮箱
-sender = 'fengjikun1987@163.com'
+sender = 'xxxx'
 
 #接收的邮箱，具体方法参考上面发送邮箱的方法
 receiver = ['xxxxxxx','xxxxxxxxxxxxxxxxxx']
