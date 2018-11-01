@@ -86,7 +86,7 @@ password = 'fengJK1986526' #此密码不是邮箱密码，是邮箱代理的密�
 sender = 'fengjikun1987@163.com'
 
 #接收的邮箱，具体方法参考上面发送邮箱的方法
-receiver = ['fengjikun1987@163.com','fengjikun@wywk.c']
+receiver = ['xxxxxxx','xxxxxxxxxxxxxxxxxx']
 
 #发送邮件主题
 subject = 'Python send attach email'
